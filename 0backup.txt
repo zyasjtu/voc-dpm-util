@@ -1,0 +1,29 @@
+1.dpm source code(matlab/2013):
+http://www.cs.berkeley.edu/~rbg/latent/
+
+2.dpm for windows:
+http://www.th7.cn/system/win/201510/136687.shtml
+
+3.prepare train data for dpm:
+3.1 prepare pos & neg annotatioins(see program 3): $BaseDir\VOC2007\VOCdevkit\VOC2007\Annotations
+3.2 prepare pos(imgs with obj) & neg(imgs without obj) images: $BaseDir\VOC2007\VOCdevkit\VOC2007\JPEGImages
+3.3 prepare pos & neg sample names(2 txt file): $BaseDir\VOC2007\VOCdevkit\VOC2007\ImageSets\Main
+3.4 change pascal_data.m: http://www.cnblogs.com/louyihang-loves-baiyan/p/4965992.html
+
+4.dpm source code(c++/vs2012):
+http://blog.csdn.net/j56754gefge/article/details/40708679
+4.1 c++ detect source code:
+http://yunpan.cn/cLAZYKizwJ5ZH (key: 5d36)
+4.1 pthread:
+http://a9ba7a.l47.yunpan.cn/lk/csX6cdbMFrcdz (key: aef1)
+4.2 opencv:
+
+5.convert model from *.mat to *.txt:
+http://download.csdn.net/detail/j56754gefge/8354899
+
+6.cascade dpm
+
+for vs2013:
+*matlab2013 with vs2013
+*inline int round(flaot a)
+*include<algorithm> for std::min

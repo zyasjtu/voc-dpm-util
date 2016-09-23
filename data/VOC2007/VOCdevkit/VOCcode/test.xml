@@ -1,0 +1,14 @@
+<image>5</image>
+<confi>0.8</confi>
+<bnd>
+<xmin>1</xmin>
+<ymin>160</ymin>
+<xmax>20</xmax>
+<ymax>345</ymax>
+</bnd>
+<part>
+<class>head</class>
+<bnd>
+    <xmin>10</xmin>
+</bnd>
+</part>
